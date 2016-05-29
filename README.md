@@ -3,7 +3,7 @@
 **Donations:** 
 XMR: 49wH4MLdp62BrG7pUuh7dJ51icq1T2edpNJpHt7R2qoJTpuR7oK81jWXxH5K6Rz1nZHneK24jj7XdZDmc7U2W2dH8aso46n
 
-**Information:**
+**Information:**  
 It`s a betting bot for the website **www.monerodice.net** which uses the martingale system.  
 Betting Currency: **Monero (XMR)**
 
@@ -15,5 +15,5 @@ Features and settings:
 	- Support for Linux and Windows  
 
 
-**Requirements:**
+**Requirements:**  
 	- You need to create API keys on the **www.monerodice.net** Website and insert them into the script  
