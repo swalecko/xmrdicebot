@@ -1,13 +1,16 @@
 # xmrdicebot
 
-**Donations:** 
+ [![Documentation](https://codedocs.xyz/swalecko/xmrdicebot.svg)](https://codedocs.xyz/swalecko/xmrdicebot/)
+  [![Build Status](https://travis-ci.org/swalecko/xmrdicebot.svg?branch=master)](https://travis-ci.org/swalecko/Pxmrdicebot)
+
+##Donations:
 XMR: 49wH4MLdp62BrG7pUuh7dJ51icq1T2edpNJpHt7R2qoJTpuR7oK81jWXxH5K6Rz1nZHneK24jj7XdZDmc7U2W2dH8aso46n
 
-**Information:**  
+##Information:
 It`s a betting bot for the website **www.monerodice.net** which uses the martingale system.  
 Betting Currency: **Monero (XMR)**
 
-Features and settings:  
+**Features and settings:**    
 	- set the mininum bet   
 	- set the desired XMR win amount (The bot runs until the desired win amount is reached)  
 	- set the betting interval  
@@ -15,5 +18,5 @@ Features and settings:
 	- Support for Linux and Windows  
 
 
-**Requirements:**  
+##Requirements:   
 	- You need to create API keys on the **www.monerodice.net** Website and insert them into the script  
