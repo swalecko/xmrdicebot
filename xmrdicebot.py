@@ -56,7 +56,7 @@ def startBet():
 	#betSize = float(input("Enter the starting bet amount (min. 0.0001 XMR): "))
 	betSize = 0.0001
 	#winAmount = float(input("Enter the desired win amount: "))
-	winAmount  = 0.0004
+	winAmount  = 0.5
 
 	#create a process id file (pid) to prevent concurrent running of this script
 	pid = str(os.getpid())
@@ -350,7 +350,7 @@ def printSummary(prize, beforeBalance, afterBalance, wonloose, strCountTrue, str
 	print ("###########################################")
 
 def main():
-	logging.basicConfig(filename="xmrdice_test.log", level=logging.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+	logging.basicConfig(filename="xmrdice.log", level=logging.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 	startBet()
 
 if __name__ == "__main__":
