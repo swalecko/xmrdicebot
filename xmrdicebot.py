@@ -19,9 +19,6 @@ import base64
 import getpass
 import logging
 
-
-
-
 def startBet():
 	
 	#Settings
@@ -49,14 +46,14 @@ def startBet():
 	public_key = ""
 	private_key = ""
 
-
-	##############################################################
-
-	#Comment or uncomment 
 	#betSize = float(input("Enter the starting bet amount (min. 0.0001 XMR): "))
 	betSize = 0.0001
 	#winAmount = float(input("Enter the desired win amount: "))
 	winAmount  = 0.5
+	#Set the bet size limit!
+	betSizeLimit = 50
+
+	##############################################################
 
 	#create a process id file (pid) to prevent concurrent running of this script
 	pid = str(os.getpid())
@@ -65,9 +62,6 @@ def startBet():
 
 	#set the bet interval in seconds
 	interval = 0
-
-	#Set the bet size limit!
-	betSizeLimit = 5
 
 	#Let the betCount at 1
 	#betCount = int(raw_input("Enter the bet count(int): "))
