@@ -17,5 +17,5 @@ Betting Currency: **Monero (XMR)**
 	- Support for Linux and Windows  
 
 
-**Requirements:**
+**Requirements:**	
 	- You need to create API keys on the **www.monerodice.net** Website and insert them into the script  
